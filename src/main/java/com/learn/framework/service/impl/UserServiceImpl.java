@@ -1,5 +1,7 @@
 package com.learn.framework.service.impl;
 
+import com.learn.framework.bean.User;
+import com.learn.framework.dao.IUserDao;
 import com.learn.framework.service.IUserService;
 
 /**
@@ -7,5 +9,9 @@ import com.learn.framework.service.IUserService;
  */
 public class UserServiceImpl implements IUserService {
 
+     private IUserDao userDao;
 
+    public void saveUser(User u) {
+       this.userDao.saveUser(u);
+    }
 }
