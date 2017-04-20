@@ -29,7 +29,7 @@ public class User {
     private Date updateTime;
     private Boolean flag = true; //是否使用中
     private String createrId;
-    private String updaterId;
+    private String updatorId;
     private String creatorName;
     private String updatorName;
     private String imageHead;
@@ -50,6 +50,7 @@ public class User {
     public void setRealName(String realName) {
         this.realName = realName;
     }
+
 
     public String getLoginName() {
         return loginName;
@@ -219,12 +220,12 @@ public class User {
         this.createrId = createrId;
     }
 
-    public String getUpdaterId() {
-        return updaterId;
+    public String getUpdatorId() {
+        return updatorId;
     }
 
-    public void setUpdaterId(String updaterId) {
-        this.updaterId = updaterId;
+    public void setUpdatorId(String updatorId) {
+        this.updatorId = updatorId;
     }
 
     public String getCreatorName() {
@@ -275,7 +276,7 @@ public class User {
         this.updateTime = updateTime;
         this.flag = flag;
         this.createrId = createrId;
-        this.updaterId = updaterId;
+        this.updatorId = updatorId;
         this.creatorName = creatorName;
         this.updatorName = updatorName;
         this.imageHead = imageHead;
