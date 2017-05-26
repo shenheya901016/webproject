@@ -281,4 +281,36 @@ public class User {
         this.imageHead = imageHead;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", realName='" + realName + '\'' +
+                ", loginName='" + loginName + '\'' +
+                ", idCard='" + idCard + '\'' +
+                ", sex=" + sex +
+                ", typeId='" + typeId + '\'' +
+                ", typeName='" + typeName + '\'' +
+                ", roleId='" + roleId + '\'' +
+                ", roleName='" + roleName + '\'' +
+                ", tel='" + tel + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", loginTime=" + loginTime +
+                ", birthday=" + birthday +
+                ", deptId='" + deptId + '\'' +
+                ", deptName='" + deptName + '\'' +
+                ", email='" + email + '\'' +
+                ", qq='" + qq + '\'' +
+                ", post='" + post + '\'' +
+                ", address='" + address + '\'' +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", flag=" + flag +
+                ", createrId='" + createrId + '\'' +
+                ", updaterId='" + updaterId + '\'' +
+                ", creatorName='" + creatorName + '\'' +
+                ", updatorName='" + updatorName + '\'' +
+                ", imageHead='" + imageHead + '\'' +
+                '}';
+    }
 }
